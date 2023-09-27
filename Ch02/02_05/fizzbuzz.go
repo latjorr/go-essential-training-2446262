@@ -17,6 +17,7 @@ func main() {
 		fmt.Println(1 % 5)
 		fmt.Println(7 % 5)
 		fmt.Println(10 % 5)
+		
 	*/
 
 	// for every number from 1 to 20

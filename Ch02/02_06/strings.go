@@ -11,7 +11,7 @@ func main() {
 
 	fmt.Println(len(book))
 
-	fmt.Printf("book[0] = %v (type %T)\n", book[0], book[0])
+	fmt.Printf("book[0] == %v (type %T)\n", book[0], book[0])
 	// uint8 is a byte
 
 	// Strings in go are immutable
@@ -21,7 +21,7 @@ func main() {
 	fmt.Println(book[4:11])
 
 	// Slice (no end)
-	fmt.Println(book[4:])
+	// fmt.Println(book[4:])
 
 	// Slice (no start)
 	fmt.Println(book[:4])

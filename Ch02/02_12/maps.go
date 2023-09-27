@@ -23,7 +23,8 @@ func main() {
 
 	// Use two value to see if found
 	value, ok := stocks["TSLA"]
-	if !ok {
+	// the ok keyword in go means "is this value in the map?"
+	if !ok { 			
 		fmt.Println("TSLA not found")
 	} else {
 		fmt.Println(value)
